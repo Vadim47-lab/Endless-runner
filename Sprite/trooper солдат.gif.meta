@@ -1,0 +1,1373 @@
+fileFormatVersion: 2
+guid: aa6fb8208ed637a4c983fccce4a06ea7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7829376168240493362
+    second: 44206_0
+  - first:
+      213: -5333548408869884133
+    second: 44206_1
+  - first:
+      213: 4753069401366345860
+    second: 44206_2
+  - first:
+      213: 8511835796869462424
+    second: 44206_3
+  - first:
+      213: -5841488724231939978
+    second: 44206_4
+  - first:
+      213: -1077782628310927349
+    second: 44206_5
+  - first:
+      213: -5523352416222752579
+    second: 44206_6
+  - first:
+      213: -4015493367372116035
+    second: 44206_7
+  - first:
+      213: 624571063038735485
+    second: 44206_8
+  - first:
+      213: -7458460308101815165
+    second: 44206_9
+  - first:
+      213: -5335225593606078215
+    second: 44206_10
+  - first:
+      213: -6169601816934799806
+    second: 44206_11
+  - first:
+      213: -5601921692056247968
+    second: 44206_12
+  - first:
+      213: -2609539815586177044
+    second: 44206_13
+  - first:
+      213: 3449594796080411542
+    second: 44206_14
+  - first:
+      213: 1189893162000391132
+    second: 44206_15
+  - first:
+      213: 4436144267300725038
+    second: 44206_16
+  - first:
+      213: 3508064989073283310
+    second: 44206_17
+  - first:
+      213: 3047571536918781378
+    second: 44206_18
+  - first:
+      213: 8054630355349109582
+    second: 44206_19
+  - first:
+      213: 1058217825352001642
+    second: 44206_20
+  - first:
+      213: -153399133888846207
+    second: 44206_21
+  - first:
+      213: -3806452312942778071
+    second: 44206_22
+  - first:
+      213: -8490355636744869442
+    second: 44206_23
+  - first:
+      213: 6864593493760290791
+    second: 44206_24
+  - first:
+      213: 4256782355685540114
+    second: 44206_25
+  - first:
+      213: 5040562728006719841
+    second: 44206_26
+  - first:
+      213: 5517447658109365170
+    second: 44206_27
+  - first:
+      213: 4866386852026782036
+    second: 44206_28
+  - first:
+      213: -3096945309286912427
+    second: 44206_29
+  - first:
+      213: -3204946553499155668
+    second: 44206_30
+  - first:
+      213: -2280544284697031843
+    second: 44206_31
+  - first:
+      213: -6462509548442189159
+    second: 44206_32
+  - first:
+      213: 6365870381744750592
+    second: 44206_33
+  - first:
+      213: -5043924380810125968
+    second: 44206_34
+  - first:
+      213: -3164840210449670967
+    second: 44206_35
+  - first:
+      213: 4676486434954790900
+    second: 44206_36
+  - first:
+      213: 6428192815688009741
+    second: 44206_37
+  - first:
+      213: -120381952349092549
+    second: 44206_38
+  - first:
+      213: -8061013841262483982
+    second: 44206_39
+  - first:
+      213: -4030938690700375112
+    second: 44206_40
+  - first:
+      213: 3512308219117281100
+    second: 44206_41
+  - first:
+      213: -8532295978856327035
+    second: 44206_42
+  - first:
+      213: 481250377394012354
+    second: 44206_43
+  - first:
+      213: 2665926860325810308
+    second: 44206_44
+  - first:
+      213: -2627296069535232346
+    second: 44206_45
+  - first:
+      213: 1962331851733681210
+    second: 44206_46
+  - first:
+      213: -7079000849830745055
+    second: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_0"
+  - first:
+      213: 7387207495219186865
+    second: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_1"
+  - first:
+      213: -3420998011340280256
+    second: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_2"
+  - first:
+      213: -965977291672134475
+    second: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_3"
+  - first:
+      213: -364215980166894723
+    second: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_4"
+  - first:
+      213: -3590104843350755189
+    second: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_5"
+  - first:
+      213: -4237105680344318612
+    second: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_6"
+  - first:
+      213: 1143302387322489375
+    second: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_7"
+  - first:
+      213: -60976431244383637
+    second: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_8"
+  - first:
+      213: 5524454199836461740
+    second: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_9"
+  - first:
+      213: -4001284559002166150
+    second: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_10"
+  - first:
+      213: -4975887689562016235
+    second: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_11"
+  - first:
+      213: 1688868650049271926
+    second: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_12"
+  - first:
+      213: 3706044643373521695
+    second: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_13"
+  - first:
+      213: -196290972138649795
+    second: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_14"
+  - first:
+      213: -6532879615351273279
+    second: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_15"
+  - first:
+      213: -2777203231375731687
+    second: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_16"
+  - first:
+      213: 57280041770715042
+    second: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_17"
+  - first:
+      213: 1512670876330884104
+    second: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_18"
+  - first:
+      213: 6670509563592851388
+    second: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_19"
+  - first:
+      213: -3121815898481450899
+    second: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_20"
+  - first:
+      213: 2075672528599675954
+    second: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_21"
+  - first:
+      213: 5705154037932292767
+    second: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_22"
+  - first:
+      213: -1921890593079551185
+    second: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_23"
+  - first:
+      213: -533221095896745670
+    second: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_24"
+  - first:
+      213: 2012945527353730951
+    second: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_25"
+  - first:
+      213: -4774156000743624513
+    second: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_26"
+  - first:
+      213: -6836123343723144502
+    second: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_27"
+  - first:
+      213: -3822865092497761952
+    second: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_28"
+  - first:
+      213: 5787257875268677524
+    second: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_29"
+  - first:
+      213: 7810500068704075383
+    second: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_30"
+  - first:
+      213: -7855009393774342874
+    second: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_31"
+  - first:
+      213: -4372296249484690410
+    second: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_32"
+  - first:
+      213: -1642560512561666808
+    second: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_33"
+  - first:
+      213: 156458079954613024
+    second: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_34"
+  - first:
+      213: -2572764899160402998
+    second: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_35"
+  - first:
+      213: -1844280970927498905
+    second: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_36"
+  - first:
+      213: 5439086759744558634
+    second: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_37"
+  - first:
+      213: -1861515734685435010
+    second: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_38"
+  - first:
+      213: 978810373421438585
+    second: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_39"
+  - first:
+      213: -4625867469576442822
+    second: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_40"
+  - first:
+      213: 2085467199329186521
+    second: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_41"
+  - first:
+      213: 175413220963825094
+    second: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_42"
+  - first:
+      213: 4861797845657930989
+    second: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_43"
+  - first:
+      213: -6192632675887981620
+    second: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_44"
+  - first:
+      213: -5355959729202514250
+    second: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_45"
+  - first:
+      213: -1180509580913308912
+    second: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_46"
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 526
+        width: 55
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c6625bb3652cd90800000000000000
+      internalID: -7079000849830745055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_1"
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 528
+        width: 68
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bc84aae312a48660800000000000000
+      internalID: 7387207495219186865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_2"
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 530
+        width: 77
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04eaeb41f6c2680d0800000000000000
+      internalID: -3420998011340280256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_3"
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 533
+        width: 65
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bcd9cc65c82892f0800000000000000
+      internalID: -965977291672134475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_4"
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 532
+        width: 54
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ba1a8ee7b02faf0800000000000000
+      internalID: -364215980166894723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_5"
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 519
+        width: 60
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b883ba98aa26d2ec0800000000000000
+      internalID: -3590104843350755189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_6"
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 522
+        width: 64
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d794735d6c235c0800000000000000
+      internalID: -4237105680344318612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_7"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 435
+        width: 72
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a863bb673dddf00800000000000000
+      internalID: 1143302387322489375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_8"
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 438
+        width: 55
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ae104424e572ff0800000000000000
+      internalID: -60976431244383637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_9"
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 440
+        width: 57
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caaca2f23ddcaac40800000000000000
+      internalID: 5524454199836461740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_10"
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 434
+        width: 58
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c9b6fa4e49878c0800000000000000
+      internalID: -4001284559002166150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_11"
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 437
+        width: 73
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516ba6d728812fab0800000000000000
+      internalID: -4975887689562016235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_12"
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 439
+        width: 71
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678fa76d611107710800000000000000
+      internalID: 1688868650049271926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_13"
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 442
+        width: 62
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b940ab7f38e6330800000000000000
+      internalID: 3706044643373521695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_14"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 354
+        width: 55
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d374f0d9662a64df0800000000000000
+      internalID: -196290972138649795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_15"
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 339
+        width: 60
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8c89e3a9c8655a0800000000000000
+      internalID: -6532879615351273279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_16"
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 343
+        width: 59
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91458c410646579d0800000000000000
+      internalID: -2777203231375731687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_17"
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 345
+        width: 70
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a7867ef4ef7bc000800000000000000
+      internalID: 57280041770715042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_18"
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 348
+        width: 63
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80cf7c5c5261ef410800000000000000
+      internalID: 1512670876330884104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_19"
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 350
+        width: 57
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf3cc03b19629c50800000000000000
+      internalID: 6670509563592851388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_20"
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 341
+        width: 55
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d60a8dcfaf41da4d0800000000000000
+      internalID: -3121815898481450899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_21"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 254
+        width: 69
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2347839da254ecc10800000000000000
+      internalID: 2075672528599675954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_22"
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 259
+        width: 78
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9af6dbce57cc2f40800000000000000
+      internalID: 5705154037932292767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_23"
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 262
+        width: 63
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b145e20b21455e0800000000000000
+      internalID: -1921890593079551185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_24"
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 262
+        width: 54
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3974580d3e9998f0800000000000000
+      internalID: -533221095896745670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_25"
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 252
+        width: 57
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7876126ca4b6feb10800000000000000
+      internalID: 2012945527353730951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_26"
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 254
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb07061796acebdb0800000000000000
+      internalID: -4774156000743624513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_27"
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 259
+        width: 71
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca50a8c9063121a0800000000000000
+      internalID: -6836123343723144502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_28"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 172
+        width: 63
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0691e69e37472fac0800000000000000
+      internalID: -3822865092497761952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_29"
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 172
+        width: 54
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49fa8f61068705050800000000000000
+      internalID: 5787257875268677524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_30"
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 183
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e35414e68746c60800000000000000
+      internalID: 7810500068704075383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_31"
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 183
+        width: 74
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d49b0f2966df290800000000000000
+      internalID: -7855009393774342874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_32"
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 187
+        width: 83
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c31bcf9bb7253c0800000000000000
+      internalID: -4372296249484690410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_33"
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 185
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 805adae9ae37439e0800000000000000
+      internalID: -1642560512561666808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_34"
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 189
+        width: 53
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0233fe57bc9db2200800000000000000
+      internalID: 156458079954613024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_35"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac353fe84f3bb4cd0800000000000000
+      internalID: -2572764899160402998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_36"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 100
+        width: 71
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7699ad57a3cc766e0800000000000000
+      internalID: -1844280970927498905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_37"
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 100
+        width: 83
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26da1927948b7b40800000000000000
+      internalID: 5439086759744558634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_38"
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 100
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b36425d419a26e0800000000000000
+      internalID: -1861515734685435010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_39"
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 100
+        width: 53
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 976904249de659d00800000000000000
+      internalID: 978810373421438585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_40"
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 93
+        width: 58
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c6cd99b0e9dcfb0800000000000000
+      internalID: -4625867469576442822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_41"
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 91
+        width: 54
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2beb65e5111fc10800000000000000
+      internalID: 2085467199329186521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_42"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 59
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5b47425613f6200800000000000000
+      internalID: 175413220963825094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_43"
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 2
+        width: 61
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec4338b163987340800000000000000
+      internalID: 4861797845657930989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_44"
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 3
+        width: 64
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb583924695f0aa0800000000000000
+      internalID: -6192632675887981620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_45"
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 0
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b6369dd00fcba5b0800000000000000
+      internalID: -5355959729202514250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "trooper \u0441\u043E\u043B\u0434\u0430\u0442_46"
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 0
+        width: 64
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b87bf6accfd9fe0800000000000000
+      internalID: -1180509580913308912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
