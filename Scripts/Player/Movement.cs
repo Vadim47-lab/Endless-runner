@@ -15,6 +15,7 @@ public class Movement : MonoBehaviour
     private readonly string _run1 = "_Run1";
     private readonly string _stop = "_Stop";
     private readonly string _jump = "_Jump";
+    private readonly string _down = "_Down";
     private bool _stopMove = false;
 
     private Animator _animator;
@@ -34,6 +35,7 @@ public class Movement : MonoBehaviour
             {
                 _animator.SetBool(_run2, false);
                 _animator.SetBool(_jump, false);
+                _animator.SetBool(_down, false);
                 _animator.SetBool(_run1, true);
                 transform.Translate(_speed * Time.deltaTime, 0, 0, 0);
             }
@@ -42,6 +44,7 @@ public class Movement : MonoBehaviour
             {
                 _animator.SetBool(_run1, false);
                 _animator.SetBool(_jump, false);
+                _animator.SetBool(_down, false);
                 _animator.SetBool(_run2, true);
                 transform.Translate(_speed * Time.deltaTime * -1, 0, 0);
             }
@@ -50,13 +53,23 @@ public class Movement : MonoBehaviour
             {
                 _animator.SetBool(_run2, false);
                 _animator.SetBool(_run1, false);
+                _animator.SetBool(_down, false);
                 _animator.SetBool(_jump, true);
                 _rigidbody2D.AddForce(Vector2.up * _jumpForce);
                 _playerJumped?.Invoke();
             }
+
+            if (Input.GetKey(KeyCode.S))
+            {
+                _animator.SetBool(_run2, false);
+                _animator.SetBool(_run1, false);
+                _animator.SetBool(_jump, false);
+                _animator.SetBool(_down, true);
+                _rigidbody2D.AddForce(Vector2.down * _jumpForce);
+            }
         }
 
-        if (Input.GetKey(KeyCode.S))
+        if (Input.GetKey(KeyCode.LeftShift))
         {
             _stopMove = true;
             _animator.SetBool(_run1, false);
