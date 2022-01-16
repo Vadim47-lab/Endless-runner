@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8857324767587204061}
   - component: {fileID: 7635134834472265211}
   - component: {fileID: 8857324767587204063}
+  - component: {fileID: 7762449218383439267}
   - component: {fileID: 8857324767587204062}
   - component: {fileID: 7266174255910102081}
   - component: {fileID: 384970896}
@@ -117,21 +118,47 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0036053658, y: -0.0024108887}
+  m_Offset: {x: -0.0008482933, y: 0.00786972}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.38, y: 0.66}
+    oldSize: {x: 1.2666667, y: 2.2}
     newSize: {x: 0.38, y: 0.66}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.3936987, y: 0.6716914}
+  m_Size: {x: 1.2726278, y: 2.2054415}
+  m_EdgeRadius: 0
+--- !u!61 &7762449218383439267
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8857324767587204066}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.2666667, y: 2.2}
+    newSize: {x: 0.38, y: 0.66}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.2666667, y: 2.2}
   m_EdgeRadius: 0
 --- !u!50 &8857324767587204062
 Rigidbody2D:
@@ -279,7 +306,10 @@ MonoBehaviour:
         m_CallState: 2
   _speed: 2
   _rigidbody2D: {fileID: 8857324767587204062}
-  _jumpForce: 10
+  _jumpForce: 15
+  _maxHeight: 3.796
+  _minWidth: -10.28
+  _jumpPlayer: 15
 --- !u!114 &2991802931585763978
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -292,3 +322,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66f364f635367994ca1f81377b4a2fa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _health: 0

@@ -1,24 +1,26 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Events;
 
 [RequireComponent(typeof(Animator))]
-public class Movement : MonoBehaviour
+public class PlayerMover : MonoBehaviour
 {
     [SerializeField] private UnityEvent _playerJumped;
     [SerializeField] private float _speed;
     [SerializeField] private Rigidbody2D _rigidbody2D;
     [SerializeField] private float _jumpForce;
+    [SerializeField] private float _maxHeight;
+    [SerializeField] private float _minWidth;
+    [SerializeField] private float _jumpPlayer;
 
     private readonly string _run2 = "_Run2";
     private readonly string _run1 = "_Run1";
     private readonly string _stop = "_Stop";
     private readonly string _jump = "_Jump";
     private readonly string _down = "_Down";
-    private bool _stopMove = false;
-
     private Animator _animator;
+    private Vector3 _targetPosition;
+    private bool _stopMove = false;
+    private readonly float _stopJump = 0;
 
     private void Start()
     {
@@ -27,10 +29,12 @@ public class Movement : MonoBehaviour
 
     private void Update()
     {
+        _targetPosition = transform.position;
+
         if (_stopMove == false)
         {
             _animator.SetBool(_stop, false);
-
+            
             if (Input.GetKey(KeyCode.D))
             {
                 _animator.SetBool(_run2, false);
@@ -42,21 +46,33 @@ public class Movement : MonoBehaviour
 
             if (Input.GetKey(KeyCode.A))
             {
-                _animator.SetBool(_run1, false);
-                _animator.SetBool(_jump, false);
-                _animator.SetBool(_down, false);
-                _animator.SetBool(_run2, true);
-                transform.Translate(_speed * Time.deltaTime * -1, 0, 0);
+                if (_targetPosition.x > _minWidth)
+                {
+                    _animator.SetBool(_run1, false);
+                    _animator.SetBool(_jump, false);
+                    _animator.SetBool(_down, false);
+                    _animator.SetBool(_run2, true);
+                    transform.Translate(_speed * Time.deltaTime * -1, 0, 0);
+                }
             }
 
             if (Input.GetKey(KeyCode.Space))
             {
-                _animator.SetBool(_run2, false);
-                _animator.SetBool(_run1, false);
-                _animator.SetBool(_down, false);
-                _animator.SetBool(_jump, true);
-                _rigidbody2D.AddForce(Vector2.up * _jumpForce);
-                _playerJumped?.Invoke();
+                if (_targetPosition.y < _maxHeight)
+                {
+                    _jumpForce = _jumpPlayer;
+                    _animator.SetBool(_run2, false);
+                    _animator.SetBool(_run1, false);
+                    _animator.SetBool(_down, false);
+                    _animator.SetBool(_jump, true);
+                    _rigidbody2D.AddForce(Vector2.up * _jumpForce);
+                    _playerJumped?.Invoke();
+                }
+                else if (_targetPosition.y > _maxHeight)
+                {
+                    _targetPosition.y = _maxHeight;
+                    _jumpForce = _stopJump;
+                }
             }
 
             if (Input.GetKey(KeyCode.S))
