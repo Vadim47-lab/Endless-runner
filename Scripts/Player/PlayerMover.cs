@@ -20,6 +20,7 @@ public class PlayerMover : MonoBehaviour
     private Animator _animator;
     private Vector3 _targetPosition;
     private bool _stopMove = false;
+    private bool _playMusic = false;
     private readonly float _stopJump = 0;
 
     private void Start()
@@ -66,8 +67,14 @@ public class PlayerMover : MonoBehaviour
                     _animator.SetBool(_down, false);
                     _animator.SetBool(_jump, true);
                     _rigidbody2D.AddForce(Vector2.up * _jumpForce);
-                    _playerJumped?.Invoke();
                 }
+
+                if (_playMusic == false)
+                {
+                    _playerJumped?.Invoke();
+                    _playMusic = true;
+                }
+
                 else if (_targetPosition.y > _maxHeight)
                 {
                     _targetPosition.y = _maxHeight;
@@ -97,5 +104,7 @@ public class PlayerMover : MonoBehaviour
         {
             _stopMove = false;
         }
+
+        _playMusic = false;
     }
 }
