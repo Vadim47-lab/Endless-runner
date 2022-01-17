@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 8857324767587204060}
   - component: {fileID: 8857324767587204061}
   - component: {fileID: 7635134834472265211}
-  - component: {fileID: 8857324767587204063}
-  - component: {fileID: 7762449218383439267}
+  - component: {fileID: 6495254660188213121}
+  - component: {fileID: 5345914517976199358}
   - component: {fileID: 8857324767587204062}
   - component: {fileID: 7266174255910102081}
   - component: {fileID: 384970896}
@@ -32,7 +32,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8857324767587204066}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.778, y: -1.6729786, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -108,8 +108,8 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!61 &8857324767587204063
-BoxCollider2D:
+--- !u!60 &6495254660188213121
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -121,7 +121,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.004995346, y: 0.008114457}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -131,11 +131,22 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.93369865, y: 1.6566322}
-  m_EdgeRadius: 0
---- !u!61 &7762449218383439267
-BoxCollider2D:
+  m_Points:
+    m_Paths:
+    - - {x: 0.32004336, y: 0.5219359}
+      - {x: 0.125, y: 0.825}
+      - {x: -0.125, y: 0.825}
+      - {x: -0.31898254, y: 0.5071085}
+      - {x: -0.3732042, y: 0.25008878}
+      - {x: -0.38921675, y: 0.049919724}
+      - {x: -0.48390815, y: -0.24102515}
+      - {x: -0.475, y: -0.675}
+      - {x: -0.375, y: -0.825}
+      - {x: 0.4, y: -0.825}
+      - {x: 0.475, y: -0.725}
+      - {x: 0.4278724, y: 0.17188656}
+--- !u!60 &5345914517976199358
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -147,7 +158,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0029215813, y: 0.0045552254}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -157,9 +168,22 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.93358135, y: 1.6598115}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.31051096, y: 0.54311645}
+      - {x: 0.125, y: 0.825}
+      - {x: -0.125, y: 0.825}
+      - {x: -0.31898254, y: 0.51664007}
+      - {x: -0.3772374, y: 0.25180152}
+      - {x: -0.3796854, y: 0.102342695}
+      - {x: -0.48039082, y: -0.22904953}
+      - {x: -0.475, y: -0.675}
+      - {x: -0.375, y: -0.825}
+      - {x: 0.4, y: -0.825}
+      - {x: 0.475, y: -0.725}
+      - {x: 0.44499433, y: -0.15412518}
+      - {x: 0.43034098, y: 0.053460166}
+      - {x: 0.42169473, y: 0.17594662}
 --- !u!50 &8857324767587204062
 Rigidbody2D:
   serializedVersion: 4
@@ -193,7 +217,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.04
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -306,9 +330,10 @@ MonoBehaviour:
         m_CallState: 2
   _speed: 3
   _rigidbody2D: {fileID: 8857324767587204062}
-  _jumpForce: 6
-  _maxHeight: 7.12
-  _minWidth: -17.4
+  _jumpForce: 7
+  _maxHeight: 8.12
+  _minWidth: -19.68
+  _maxWidth: 19.68
   _jumpPlayer: 15
 --- !u!114 &2991802931585763978
 MonoBehaviour:

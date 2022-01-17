@@ -10,6 +10,7 @@ public class PlayerMover : MonoBehaviour
     [SerializeField] private float _jumpForce;
     [SerializeField] private float _maxHeight;
     [SerializeField] private float _minWidth;
+    [SerializeField] private float _maxWidth;
     [SerializeField] private float _jumpPlayer;
 
     private readonly string _run2 = "_Run2";
@@ -20,7 +21,6 @@ public class PlayerMover : MonoBehaviour
     private Animator _animator;
     private Vector3 _targetPosition;
     private bool _stopMove = false;
-    private bool _playMusic = false;
     private readonly float _stopJump = 0;
 
     private void Start()
@@ -38,11 +38,14 @@ public class PlayerMover : MonoBehaviour
             
             if (Input.GetKey(KeyCode.D))
             {
-                _animator.SetBool(_run2, false);
-                _animator.SetBool(_jump, false);
-                _animator.SetBool(_down, false);
-                _animator.SetBool(_run1, true);
-                transform.Translate(_speed * Time.deltaTime, 0, 0, 0);
+                if (_targetPosition.x < _maxWidth)
+                {
+                    _animator.SetBool(_run2, false);
+                    _animator.SetBool(_jump, false);
+                    _animator.SetBool(_down, false);
+                    _animator.SetBool(_run1, true);
+                    transform.Translate(_speed * Time.deltaTime, 0, 0, 0);
+                }
             }
 
             if (Input.GetKey(KeyCode.A))
@@ -67,12 +70,7 @@ public class PlayerMover : MonoBehaviour
                     _animator.SetBool(_down, false);
                     _animator.SetBool(_jump, true);
                     _rigidbody2D.AddForce(Vector2.up * _jumpForce);
-                }
-
-                if (_playMusic == false)
-                {
                     _playerJumped?.Invoke();
-                    _playMusic = true;
                 }
 
                 else if (_targetPosition.y > _maxHeight)
@@ -104,7 +102,5 @@ public class PlayerMover : MonoBehaviour
         {
             _stopMove = false;
         }
-
-        _playMusic = false;
     }
 }
