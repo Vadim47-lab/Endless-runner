@@ -110,7 +110,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _container: {fileID: 447228815}
-  _capacity: 15
+  _capacity1: 10
+  _capacity2: 0
   _enemyPrefab: {fileID: 8207836532239539657, guid: f518ff2c09544ea4cb6c64717b8c828a,
     type: 3}
   _spawnPoints:
@@ -130,7 +131,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _container: {fileID: 1101556366}
-  _capacity: 15
+  _capacity1: 0
+  _capacity2: 10
   _enemyPrefab: {fileID: 3024679518979047015, guid: 7893429fa6cbed44c92f73d360444fe5,
     type: 3}
   _spawnPoints:
