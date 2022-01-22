@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 517697797}
   - component: {fileID: 517697796}
   m_Layer: 5
-  m_Name: Button 2
+  m_Name: ExitButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36,8 +36,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 250, y: -261}
-  m_SizeDelta: {x: 364.05, y: 132}
+  m_AnchoredPosition: {x: 265.4, y: -261}
+  m_SizeDelta: {x: 394.80518, y: 132}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &517697798
 CanvasRenderer:
@@ -66,8 +66,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -265,6 +265,7 @@ GameObject:
   - component: {fileID: 669759558}
   - component: {fileID: 669759557}
   - component: {fileID: 214805767464677740}
+  - component: {fileID: 5102700514008892408}
   m_Layer: 5
   m_Name: GameOverScreen
   m_TagString: Untagged
@@ -340,10 +341,25 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 669759555}
   m_Enabled: 1
-  m_Alpha: 0
+  m_Alpha: 1
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &5102700514008892408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 669759555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 366600f2922231e48b9bc19bce4af2ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _restartButton: {fileID: 1729460594}
+  _exitButton: {fileID: 517697796}
+  _player: {fileID: 0}
 --- !u!1 &690182184
 GameObject:
   m_ObjectHideFlags: 0
@@ -639,7 +655,7 @@ GameObject:
   - component: {fileID: 1729460595}
   - component: {fileID: 1729460594}
   m_Layer: 5
-  m_Name: Button 1
+  m_Name: RestartButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -663,7 +679,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -273.33, y: -261}
-  m_SizeDelta: {x: 364.04996, y: 132}
+  m_SizeDelta: {x: 394.8052, y: 132}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1729460596
 CanvasRenderer:
@@ -692,8 +708,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
