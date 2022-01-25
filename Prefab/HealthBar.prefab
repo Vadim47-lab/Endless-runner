@@ -74,5 +74,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e05f89c6ec9c64b44bc4fdb71fb1d5b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _player: {fileID: 0}
-  _heartTemplate: {fileID: 0}
+  _player: {fileID: 2991802931585763978, guid: 305eb393b5d2a5c45ba1820b672d4a68, type: 3}
+  _heartTemplate: {fileID: 9120439423993951216, guid: 4b65d3a8b93fb4c4aadadec2fae099cb,
+    type: 3}

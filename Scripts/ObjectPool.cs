@@ -8,6 +8,7 @@ public class ObjectPool : MonoBehaviour
     [SerializeField] private int _capacity1;
     [SerializeField] private int _capacity2;
     [SerializeField] private int _capacity3;
+    [SerializeField] private int _capacity4;
 
     private readonly List<GameObject> _pool = new List<GameObject>();
 
@@ -16,6 +17,7 @@ public class ObjectPool : MonoBehaviour
         Spawn(prefab, _capacity1);
         Spawn(prefab, _capacity2);
         Spawn(prefab, _capacity3);
+        Spawn(prefab, _capacity4);
     }
 
     protected void Spawn(GameObject prefab, int capacity)

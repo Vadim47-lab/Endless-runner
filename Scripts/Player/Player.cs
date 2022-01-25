@@ -26,6 +26,13 @@ public class Player : MonoBehaviour
         }
     }
 
+    public void GetHealth(int health)
+    {
+        _health += health;
+        HealthChanged?.Invoke(_health);
+    }
+
+
     public void Die()
     {
         Died?.Invoke();

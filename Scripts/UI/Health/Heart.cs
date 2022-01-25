@@ -7,11 +7,10 @@ using UnityEngine.UI;
 public class Heart : MonoBehaviour
 {
     [SerializeField] private float _lerpDuration;
+    [SerializeField] private float _startValue;
+    [SerializeField] private float _endValue;
 
     private Image _image;
-    private readonly float _startValue = 0;
-    private readonly float _endValue = 1;
-
 
     private void Awake()
     {
