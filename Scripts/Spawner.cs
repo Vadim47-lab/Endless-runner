@@ -2,7 +2,7 @@
 
 public class Spawner : ObjectPool
 {
-    [SerializeField] private GameObject _prefab;
+    [SerializeField] private GameObject[] _prefabTemplates;
     [SerializeField] private Transform[] _spawnPoints;
     [SerializeField] private float _secondsBetweenSpawn;
 
@@ -10,7 +10,7 @@ public class Spawner : ObjectPool
 
     private void Start()
     {
-        Initialize(_prefab);
+        Initialize(_prefabTemplates);
     }
 
     private void Update()
