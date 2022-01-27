@@ -19,6 +19,9 @@ public class Player : MonoBehaviour
     private string _stringMinutes;
     private string _stringSeconds;
 
+    public static float GameMinutesOver { get; set; }
+    public static float GameSecondsOver { get; set; }
+
     private void Start()
     {
         HealthChanged?.Invoke(_health);
@@ -43,12 +46,9 @@ public class Player : MonoBehaviour
             _gameSeconds = 0.0f;
         }
 
-        if (_gameMinutes >= 1.0f && _gameSeconds >= 30f)
+        if (_gameMinutes >= GameMinutesOver && _gameSeconds >= GameSecondsOver)
         {
-            if (SceneManager.GetActiveScene().name == "Endless runner")
-            {
-                SceneManager.LoadScene("Win");
-            }
+            SceneManager.LoadScene(2);
         }
 
         _textTime.text = "Время - " + _stringMinutes + _stringSeconds;

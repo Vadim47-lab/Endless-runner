@@ -84,7 +84,7 @@ MonoBehaviour:
   _spawnPoints:
   - {fileID: 6731796369564077641}
   - {fileID: 5944912382392860506}
-  _secondsBetweenSpawn: 2
+  _secondsBetweenSpawn1: 2
 --- !u!1 &5944912382300243478
 GameObject:
   m_ObjectHideFlags: 0

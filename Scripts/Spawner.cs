@@ -4,9 +4,10 @@ public class Spawner : ObjectPool
 {
     [SerializeField] private GameObject[] _prefabTemplates;
     [SerializeField] private Transform[] _spawnPoints;
-    [SerializeField] private float _secondsBetweenSpawn;
+    [SerializeField] private float _secondsBetweenSpawn1;
 
     private float _pastTense = 0;
+    public static float SecondsBetweenSpawn2 { get; set; }
 
     private void Start()
     {
@@ -15,9 +16,14 @@ public class Spawner : ObjectPool
 
     private void Update()
     {
+        if (MainMenuGame.ChangeSpawnSeconds == true)
+        {
+            _secondsBetweenSpawn1 = SecondsBetweenSpawn2;
+        }
+
         _pastTense += Time.deltaTime;
 
-        if (_pastTense >= _secondsBetweenSpawn)
+        if (_pastTense >= _secondsBetweenSpawn1)
         {
             if (TryGetObject(out GameObject enemy))
             {

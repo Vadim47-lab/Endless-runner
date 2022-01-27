@@ -49,15 +49,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _container: {fileID: 5227292741728444109}
-  _capacity: 5
+  _capacity: 20
   _prefabTemplates:
-  - {fileID: 4221062145758912068, guid: 203b4618173e1a84faca7e041e8b80a4, type: 3}
+  - {fileID: 3103134445660737474, guid: 203b4618173e1a84faca7e041e8b80a4, type: 3}
   _spawnPoints:
   - {fileID: 1876735910192826904}
   - {fileID: 3110817795627583481}
   - {fileID: 1756671581505755887}
   - {fileID: 8116965337381954096}
-  _secondsBetweenSpawn: 4
+  _secondsBetweenSpawn1: 4
 --- !u!1 &1876735910100890452
 GameObject:
   m_ObjectHideFlags: 0

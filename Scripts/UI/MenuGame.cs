@@ -3,29 +3,27 @@ using UnityEngine.UI;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
-
-[RequireComponent(typeof(CanvasGroup))]
-public class GameOverScreen : MonoBehaviour
+public class MenuGame : MonoBehaviour
 {
     [SerializeField] private UnityEvent _buttonPress;
-    [SerializeField] private Button _restartButton;
+    [SerializeField] private Button _continueButton;
     [SerializeField] private Button _exitButton;
-    [SerializeField] private Player _player;
+    [SerializeField] private Button _returnMainMenuButton;
 
     private CanvasGroup _gameOverGroup;
 
     private void OnEnable()
     {
-        _player.Died += OnDied;
-        _restartButton.onClick.AddListener(OnRestartButtonClick);
+        _continueButton.onClick.AddListener(OnContinueButtonClick);
         _exitButton.onClick.AddListener(OnExitButtonClick);
+        _returnMainMenuButton.onClick.AddListener(OnReturnMainMenuClick);
     }
 
     private void OnDisable()
     {
-        _player.Died -= OnDied;
-        _restartButton.onClick.RemoveListener(OnRestartButtonClick);
+        _continueButton.onClick.RemoveListener(OnContinueButtonClick);
         _exitButton.onClick.RemoveListener(OnExitButtonClick);
+        _returnMainMenuButton.onClick.RemoveListener(OnReturnMainMenuClick);
     }
 
     private void Start()
@@ -34,18 +32,21 @@ public class GameOverScreen : MonoBehaviour
         _gameOverGroup.alpha = 0;
     }
 
-    private void OnDied()
+    private void Update()
     {
-        Time.timeScale = 0;
-        _gameOverGroup.alpha = 1;
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            Time.timeScale = 0;
+            _gameOverGroup.alpha = 1;
+        }
     }
 
-    private void OnRestartButtonClick()
+    private void OnContinueButtonClick()
     {
         EventButtonPress();
 
         Time.timeScale = 1;
-        SceneManager.LoadScene(1);
+        _gameOverGroup.alpha = 0;
     }
 
     private void OnExitButtonClick()
@@ -53,6 +54,13 @@ public class GameOverScreen : MonoBehaviour
         EventButtonPress();
 
         Application.Quit();
+    }
+
+    private void OnReturnMainMenuClick()
+    {
+        EventButtonPress();
+
+        SceneManager.LoadScene(0);
     }
 
     private void EventButtonPress()

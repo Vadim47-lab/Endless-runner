@@ -76,12 +76,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _container: {fileID: 1115089485088720202}
-  _capacity: 10
+  _capacity: 20
   _prefabTemplates:
   - {fileID: 3024679518979047015, guid: 7893429fa6cbed44c92f73d360444fe5, type: 3}
   _spawnPoints:
   - {fileID: 6771449746265231775}
-  _secondsBetweenSpawn: 1
+  _secondsBetweenSpawn1: 1
 --- !u!1 &6771449746692729043
 GameObject:
   m_ObjectHideFlags: 0

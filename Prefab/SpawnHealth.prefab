@@ -169,7 +169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _container: {fileID: 4048265429388436461}
-  _capacity: 5
+  _capacity: 20
   _prefabTemplates:
   - {fileID: 1371366192912930255, guid: 9b2f28230433937448f3537134c668a7, type: 3}
   _spawnPoints:
@@ -177,7 +177,7 @@ MonoBehaviour:
   - {fileID: 6597378410016291545}
   - {fileID: 7549637742862149583}
   - {fileID: 5103376}
-  _secondsBetweenSpawn: 4
+  _secondsBetweenSpawn1: 5
 --- !u!1 &7687294532379659892
 GameObject:
   m_ObjectHideFlags: 0
