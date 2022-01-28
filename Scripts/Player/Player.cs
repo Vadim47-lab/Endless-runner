@@ -8,22 +8,26 @@ public class Player : MonoBehaviour
     [SerializeField] private UnityEvent _encounterEnemy;
     [SerializeField] private UnityEvent _encounterItem;
     [SerializeField] private int _health;
-    [SerializeField] private Gold _gold;
     [SerializeField] private TMP_Text _textGold;
     [SerializeField] private TMP_Text _textTime;
 
     public event UnityAction<int> HealthChanged;
     public event UnityAction Died;
-    private float _gameSeconds;
-    private float _gameMinutes;
     private string _stringMinutes;
     private string _stringSeconds;
+    private float _gameSeconds;
+    private float _gameMinutes;
+    private bool _die = false;
 
     public static float GameMinutesOver { get; set; }
     public static float GameSecondsOver { get; set; }
+    public static float Minutes { get; private set; }
+    public static float Seconds { get; private set; }
 
     private void Start()
     {
+        GameMinutesOver = 1.0f;
+        GameSecondsOver = 30.0f;
         HealthChanged?.Invoke(_health);
     }
 
@@ -52,6 +56,11 @@ public class Player : MonoBehaviour
         }
 
         _textTime.text = "Время - " + _stringMinutes + _stringSeconds;
+
+        if (_die == false) {
+            Minutes = _gameMinutes;
+            Seconds = _gameSeconds;
+        }
     }
 
     public void ApplyDamage(int damage)
@@ -75,13 +84,13 @@ public class Player : MonoBehaviour
 
     public void Die()
     {
+        _die = true;
         Died?.Invoke();
     }
 
     public void DisplayGold()
     {
         _encounterItem?.Invoke();
-        _textGold.text = "Золото = " + _gold.Value;
-        Debug.Log("Золото увеличилось");
+        _textGold.text = "Золото = " + Gold.Value;
     }
 }

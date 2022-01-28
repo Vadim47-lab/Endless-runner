@@ -271,6 +271,7 @@ GameObject:
   - component: {fileID: 7266174255910102081}
   - component: {fileID: 384970896}
   - component: {fileID: 2991802931585763978}
+  - component: {fileID: 1629295362}
   m_Layer: 0
   m_Name: Player
   m_TagString: Batman
@@ -637,3 +638,33 @@ MonoBehaviour:
   _gold: {fileID: 0}
   _textGold: {fileID: 0}
   _textTime: {fileID: 0}
+--- !u!114 &1629295362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8857324767587204066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52a0e1af5f563474c85082274eb8cea2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _buttonPress:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7266174255910102081}
+        m_MethodName: PlayOneShot
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: de4158309d4b8dd42bccc5dd8d8e441f,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _gameOver: {fileID: 0}
+  "_\u0441ontinueButton": {fileID: 0}
+  _player: {fileID: 2991802931585763978}

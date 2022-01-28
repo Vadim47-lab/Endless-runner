@@ -2,42 +2,34 @@
 using UnityEngine.UI;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
+using TMPro;
 
-
-[RequireComponent(typeof(CanvasGroup))]
 public class GameOverScreen : MonoBehaviour
 {
     [SerializeField] private UnityEvent _buttonPress;
     [SerializeField] private Button _restartButton;
     [SerializeField] private Button _exitButton;
+    [SerializeField] private TMP_Text _textGold;
+    [SerializeField] private TMP_Text _textTime;
     [SerializeField] private Player _player;
-
-    private CanvasGroup _gameOverGroup;
+    [SerializeField] private Gold _gold;
 
     private void OnEnable()
     {
-        _player.Died += OnDied;
         _restartButton.onClick.AddListener(OnRestartButtonClick);
         _exitButton.onClick.AddListener(OnExitButtonClick);
     }
 
     private void OnDisable()
     {
-        _player.Died -= OnDied;
         _restartButton.onClick.RemoveListener(OnRestartButtonClick);
         _exitButton.onClick.RemoveListener(OnExitButtonClick);
     }
 
     private void Start()
     {
-        _gameOverGroup = GetComponent<CanvasGroup>();
-        _gameOverGroup.alpha = 0;
-    }
-
-    private void OnDied()
-    {
-        Time.timeScale = 0;
-        _gameOverGroup.alpha = 1;
+        _textGold.text = "Золото = " + Gold.Value;
+        _textTime.text = "Время - " + Player.Minutes + Player.Seconds;
     }
 
     private void OnRestartButtonClick()

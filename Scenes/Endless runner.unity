@@ -579,6 +579,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1629295362, guid: 305eb393b5d2a5c45ba1820b672d4a68, type: 3}
+      propertyPath: _gameOver
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1629295362, guid: 305eb393b5d2a5c45ba1820b672d4a68, type: 3}
+      propertyPath: "_\u0441ontinueButton"
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2991802931585763978, guid: 305eb393b5d2a5c45ba1820b672d4a68,
         type: 3}
       propertyPath: _gold
@@ -647,6 +655,11 @@ PrefabInstance:
     - target: {fileID: 8857324767587204060, guid: 305eb393b5d2a5c45ba1820b672d4a68,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8857324767587204062, guid: 305eb393b5d2a5c45ba1820b672d4a68,
+        type: 3}
+      propertyPath: m_BodyType
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8857324767587204066, guid: 305eb393b5d2a5c45ba1820b672d4a68,
@@ -1366,11 +1379,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5102700514008892408, guid: a5f21c3e92755ce4f8273c5f1efedb94,
-        type: 3}
-      propertyPath: _player
-      value: 
-      objectReference: {fileID: 763666124}
     - target: {fileID: 7364407139364438169, guid: a5f21c3e92755ce4f8273c5f1efedb94,
         type: 3}
       propertyPath: _player

@@ -25,6 +25,7 @@ public class PlayerMover : MonoBehaviour
 
     private void Start()
     {
+        _jumpPlayer = 15.0f;
         _animator = GetComponent<Animator>();
     }
 
@@ -60,7 +61,7 @@ public class PlayerMover : MonoBehaviour
                 }
             }
 
-            if (Input.GetKey(KeyCode.Space))
+            if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.W))
             {
                 if (_targetPosition.y < _maxHeight)
                 {
@@ -79,6 +80,7 @@ public class PlayerMover : MonoBehaviour
                     _jumpForce = _stopJump;
                 }
             }
+
 
             if (Input.GetKey(KeyCode.S))
             {

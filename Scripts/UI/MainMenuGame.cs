@@ -32,7 +32,7 @@ public class MainMenuGame : MonoBehaviour
 
     private CanvasGroup _gameOverGroup;
     
-    public static bool ChangeSpawnSeconds { get; set; }
+    public static bool ChangeSpawnSeconds { get; private set; }
 
     private void OnEnable()
     {

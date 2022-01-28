@@ -3,6 +3,7 @@ using UnityEngine.UI;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
+[RequireComponent(typeof(CanvasGroup))]
 public class MenuGame : MonoBehaviour
 {
     [SerializeField] private UnityEvent _buttonPress;
@@ -10,7 +11,7 @@ public class MenuGame : MonoBehaviour
     [SerializeField] private Button _exitButton;
     [SerializeField] private Button _returnMainMenuButton;
 
-    private CanvasGroup _gameOverGroup;
+    private CanvasGroup _menuGameGroup;
 
     private void OnEnable()
     {
@@ -28,8 +29,9 @@ public class MenuGame : MonoBehaviour
 
     private void Start()
     {
-        _gameOverGroup = GetComponent<CanvasGroup>();
-        _gameOverGroup.alpha = 0;
+        _menuGameGroup = GetComponent<CanvasGroup>();
+        _menuGameGroup.alpha = 0;
+        _menuGameGroup.interactable = false;
     }
 
     private void Update()
@@ -37,7 +39,8 @@ public class MenuGame : MonoBehaviour
         if (Input.GetKey(KeyCode.Escape))
         {
             Time.timeScale = 0;
-            _gameOverGroup.alpha = 1;
+            _menuGameGroup.alpha = 1;
+            _menuGameGroup.interactable = true;
         }
     }
 
@@ -46,7 +49,8 @@ public class MenuGame : MonoBehaviour
         EventButtonPress();
 
         Time.timeScale = 1;
-        _gameOverGroup.alpha = 0;
+        _menuGameGroup.alpha = 0;
+        _menuGameGroup.interactable = false;
     }
 
     private void OnExitButtonClick()
@@ -60,6 +64,7 @@ public class MenuGame : MonoBehaviour
     {
         EventButtonPress();
 
+        Time.timeScale = 1;
         SceneManager.LoadScene(0);
     }
 

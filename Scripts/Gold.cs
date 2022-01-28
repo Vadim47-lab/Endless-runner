@@ -4,7 +4,7 @@ public class Gold : MonoBehaviour
 {
     [SerializeField] private int gold;
 
-    public int Value { get; set; }
+    public static int Value { get; private set; }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -12,7 +12,6 @@ public class Gold : MonoBehaviour
         {
             Value += gold;
             player.DisplayGold();
-            Debug.Log("Количество золота = " + Value);
         }
 
         Die();
