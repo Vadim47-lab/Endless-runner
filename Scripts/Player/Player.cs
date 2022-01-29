@@ -11,6 +11,7 @@ public class Player : MonoBehaviour
     [SerializeField] private TMP_Text _textGold;
     [SerializeField] private TMP_Text _textTime;
 
+
     public event UnityAction<int> HealthChanged;
     public event UnityAction Died;
     private string _stringMinutes;

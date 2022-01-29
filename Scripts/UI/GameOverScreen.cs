@@ -11,8 +11,6 @@ public class GameOverScreen : MonoBehaviour
     [SerializeField] private Button _exitButton;
     [SerializeField] private TMP_Text _textGold;
     [SerializeField] private TMP_Text _textTime;
-    [SerializeField] private Player _player;
-    [SerializeField] private Gold _gold;
 
     private void OnEnable()
     {

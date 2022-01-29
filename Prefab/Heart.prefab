@@ -88,3 +88,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _lerpDuration: 0.5
+  _startValue: 0
+  _endValue: 1
