@@ -13,19 +13,18 @@ public class PlayerMover : MonoBehaviour
     [SerializeField] private float _maxWidth;
     [SerializeField] private float _jumpPlayer;
 
-    private string _run2 = "_Run2";
-    private string _run1 = "_Run1";
-    private string _stop = "_Stop";
-    private string _jump = "_Jump";
-    private string _down = "_Down";
+    private readonly string _run2 = "_Run2";
+    private readonly string _run1 = "_Run1";
+    private readonly string _stop = "_Stop";
+    private readonly string _jump = "_Jump";
+    private readonly string _down = "_Down";
     private Animator _animator;
     private Vector3 _targetPosition;
     private bool _stopMove = false;
-    private float _stopJump = 0;
+    private readonly float _stopJump = 0;
 
     private void Start()
     {
-        _jumpPlayer = 15.0f;
         _animator = GetComponent<Animator>();
     }
 
